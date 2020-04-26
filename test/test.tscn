@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://addons/grid/grid.gd" type="Script" id=1]
+
+[node name="Node" type="Node"]
+
+[node name="Grid" type="Node2D" parent="."]
+script = ExtResource( 1 )
+end = Vector2( 128, 128 )
+separation = Vector2( 5, 5 )
+color2 = Color( 1, 0, 0, 1 )
+color3 = Color( 0, 1, 0, 1 )

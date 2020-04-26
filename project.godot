@@ -18,6 +18,10 @@ _global_script_class_icons={
 config/name="Godot-grid"
 config/icon="res://icon.png"
 
+[editor_plugins]
+
+enabled=PoolStringArray( "grid" )
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
